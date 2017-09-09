@@ -1,0 +1,4 @@
+<form method="post" action="search/results">{% csrf_token %}
+  {{ filter.form.as_p }}
+  <button type="submit">Search</button>
+</form>
